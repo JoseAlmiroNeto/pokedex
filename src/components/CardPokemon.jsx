@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Lines from "../assets/lines.svg";
 import Modal from "./Moda";
-import { StatsPoke } from "./StatsPoke";
-import { InfoPoke } from "./InfoPoke";
-import { MovesPoke } from "./MovesPoke";
+import { StatsPoke } from "./PokeInfo/StatsPoke";
+import { InfoPoke } from "./PokeInfo/InfoPoke";
+import { MovesPoke } from "./PokeInfo/MovesPoke";
 
 export function CardPokemon({ pokemon, index }) {
   const [isOpen, setIsOpen] = useState(false);
